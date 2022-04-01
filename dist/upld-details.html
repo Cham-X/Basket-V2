@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <title>Profile | basket v2</title>
+  <title>Upload details | basket v2</title>
 </head>
 <body>
   <div class="overview">
@@ -43,89 +43,52 @@
          <button class="btn-main"><a href="#">Search</a></button>
         </div>
       </div>
-      <div class="container">
-          <div class="collection">
-            <div class="upper-collection">
-              <div class="galley-header">
-                <strong>Profile</strong>
-              </div>
-              <div class="galley">
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1 (1).png" alt="">
-                  </div>
-                </div>
-                <div class="profile-detail">
-                  <div>
-                    <strong>Adebamijo Nifemi</strong>
-                    <p>Jozzay</p>
-                  </div>
-                  <div>
-                    <img src="./asset/icons/Group 41.svg" alt="">
-                    <img src="./asset/icons/Group 42.svg" alt="">
-                  </div>
-                  <div>
-                    <strong>Edit Profile</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="galley-header">
-              <h2 class="section-header">My Uploads</h2>
-                <strong>Mood</strong>
-              </div>
-              <div class="galley">
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1.png" alt="">
-                  </div>
-                  <div>
-                    <strong>Chill</strong>
-                  </div>
-                </div>
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1 (1).png" alt="">
-                  </div>
-                  <div>
-                    <strong>Slow</strong>
-                  </div>
-                </div>
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1 (2).png" alt="">
-                  </div>
-                  <div>
-                    <strong>Sad</strong>
-                  </div>
-                </div>
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1 (3).png" alt="">
-                  </div>
-                  <div>
-                    <strong>Happy</strong>
-                  </div>
-                </div>
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1.png" alt="">
-                  </div>
-                  <div>
-                    <strong>Flow</strong>
-                  </div>
-                </div>
-                <div class="galley-column">
-                  <div>
-                    <img src="./asset/images/SamSpratt_KidCudi_ManOnTheMoon3_AlbumCover_Web 1 (4).png" alt="">
-                  </div>
-                  <div>
-                    <strong>Cinemat</strong>
-                  </div>
-                </div>
+      <div class="container" id="upload">
+        <h2 class="section-title">Upload</h2>
+        <div class="upload-form">
+          <div class="left-form">
+            <div>
+              <label for="best art">Best Art</label>
+              <div>
+                <input type="text" placeholder="Choose file to upload">
+                <button class="btn-main"><a href="./upld-details.html">Upload</a></button>
               </div>
             </div>
+            <div>
+              <label for="About">About</label>
+              <textarea name="about" placeholder="Enter About details" id="" cols="30" rows="14"></textarea>
+            </div>
+            <div>
+             <p> Loop</p> <img src="./asset/icons/loop icon.svg" alt="">
+            </div>
           </div>
-       </div>
+          <div class="right-form">
+            <div>
+              <label for="Title">Title</label>
+              <input type="text" placeholder="Enter Beat Title">
+            </div>
+            <div>
+              <label for="Title">Producer</label>
+              <input type="text" placeholder="Producer(s)">
+            </div>
+            <div>
+              <label for="Title">Tempo</label>
+              <input type="text" placeholder="Tempo">
+            </div>
+            <div>
+              <label for="Title">Genre</label>
+              <input type="text" placeholder="Genre">
+            </div>
+            <div>
+              <label for="Title">Mood</label>
+              <input type="text" placeholder="Mood">
+            </div>
+          </div>
+        </div>
+        <div class="btn grey-btn">
+          <button class="btn-grey"><a href="./upld-confirm.html">Upload</a></button>
+        </div>
+      </div>
     </div>
   </div>
   <div class="music-deck">

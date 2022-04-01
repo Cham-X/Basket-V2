@@ -60,7 +60,7 @@
 
 .btn-white{
   background: #fff;
-  border: none;
+  border: 1px solid $hover-bg;
   padding: 0.7rem 1.1rem;
   a{
     color: $hover-bg;
@@ -89,6 +89,6 @@
 }
 
 .section-header{
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
