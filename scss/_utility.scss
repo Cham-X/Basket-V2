@@ -78,6 +78,8 @@
   width: 140px;
   opacity: 0.2;
   border: 1px solid #000;
+  text-align: center;
+  margin: auto 0.7rem;
 }
 
 .grey-para{
@@ -91,4 +93,12 @@
 .section-header{
   font-size: 1.3rem;
   font-weight: 600;
+}
+
+.blue-text{
+  color: $hover-bg;
+}
+
+.blue-link{
+  color: $hover-bg;
 }
