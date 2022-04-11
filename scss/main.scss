@@ -10,6 +10,7 @@
 
 body{
   background-color: #e5e5e5;
+  max-height: 100vh;
 }
 
 a{
@@ -24,14 +25,15 @@ li{
 .overview{
   display: flex;
 
+
   .side-bar{
     background: $sidebar-bg;
     display: flex;
     flex-direction: column;
     padding: 1.5rem auto;
     justify-content: center;
-    gap: 1.5rem;
-    width: 12rem;
+    gap: 1rem;
+    min-width: 12rem;
     
 
     .logo{
@@ -39,7 +41,7 @@ li{
       margin-top: 1rem;
       & img{
         height: auto;
-        width: 70px;
+        width: 50px;
       }
     }
 
@@ -57,17 +59,17 @@ li{
           align-items: center;
           white-space: nowrap;
           width: 100%;
-          padding: 0.3rem 1rem;
+          padding: 0.4rem 1rem;
           a{
             color: #787878;
             font-family: 'Roboto', sans-serif;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 11px;
+            line-height: 10px;
             font-weight: 400;
             padding: 0.5rem;
           }
           .dark-link{
-            font-size: 12px;
+            font-size: 11px;
             font-family:'Roboto', sans-serif;
             font-weight: 500;
             color: #000;
@@ -340,7 +342,7 @@ li{
     flex-direction: column;
     gap: 1rem;
     // margin: 1rem 3rem;
-
+  
       
     //Dashboard
       .dashboard-content{
@@ -379,6 +381,7 @@ li{
             }
             img{
               margin: 0.2rem;
+              // width: 1rem;
             }
           }
 
@@ -604,18 +607,16 @@ li{
     .content{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
       gap: 1rem;
-      margin: auto 2rem;
-
+      justify-content: center;
+      align-content: center;
       & > div{
         p{
           font-size: 0.6rem;
           font-weight: 600;
           color: #000;
-          margin:  auto 0.5rem;
-          line-height: 1rem;
+          margin: auto 0.5rem;
+          line-height: 1.1rem;
         }
       }
 
@@ -835,7 +836,7 @@ li{
   width: 100%;
   height: auto;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;

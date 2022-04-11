@@ -102,7 +102,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #e5e5e5; }
+  background-color: #e5e5e5;
+  max-height: 100vh; }
 
 a {
   text-decoration: none;
@@ -119,14 +120,14 @@ li {
     flex-direction: column;
     padding: 1.5rem auto;
     justify-content: center;
-    gap: 1.5rem;
-    width: 12rem; }
+    gap: 1rem;
+    min-width: 12rem; }
     .overview .side-bar .logo {
       text-align: center;
       margin-top: 1rem; }
       .overview .side-bar .logo img {
         height: auto;
-        width: 70px; }
+        width: 50px; }
     .overview .side-bar .nav-bar {
       margin-bottom: 1rem; }
       .overview .side-bar .nav-bar ul {
@@ -139,16 +140,16 @@ li {
           align-items: center;
           white-space: nowrap;
           width: 100%;
-          padding: 0.3rem 1rem; }
+          padding: 0.4rem 1rem; }
           .overview .side-bar .nav-bar ul li a {
             color: #787878;
             font-family: 'Roboto', sans-serif;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 11px;
+            line-height: 10px;
             font-weight: 400;
             padding: 0.5rem; }
           .overview .side-bar .nav-bar ul li .dark-link {
-            font-size: 12px;
+            font-size: 11px;
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
             color: #000; }
@@ -510,16 +511,15 @@ li {
   .container .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     gap: 1rem;
-    margin: auto 2rem; }
+    justify-content: center;
+    align-content: center; }
     .container .content > div p {
       font-size: 0.6rem;
       font-weight: 600;
       color: #000;
       margin: auto 0.5rem;
-      line-height: 1rem; }
+      line-height: 1.1rem; }
     .container .content > div:nth-child(odd) {
       border-left: 3px solid #787878; }
     .container .content > div:nth-child(even) {
@@ -658,7 +658,7 @@ li {
   width: 100%;
   height: auto;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
