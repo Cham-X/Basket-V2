@@ -10,7 +10,7 @@
 
 body{
   background-color: #e5e5e5;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 a{
@@ -25,21 +25,22 @@ li{
 .overview{
   display: flex;
   position: relative;
+  min-height: 100vh;
 
 
   .side-bar{
     background: $sidebar-bg;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem auto;
-    justify-content: center;
     gap: 1rem;
-    min-width: 12rem;
+    min-width: 10rem;
+    min-height: auto;
     
 
     .logo{
       text-align: center;
-      margin-top: 1rem;
+    margin-top: 1rem;
+
       & img{
         height: auto;
         width: 50px;
@@ -47,12 +48,14 @@ li{
     }
 
     .nav-bar{
-      margin-bottom: 1rem;
+
       ul{
         display: flex;
         flex-direction: column;
         gap: 0.4rem;
         width: 100%;
+        justify-content: center;
+
        
 
         li{
@@ -60,7 +63,7 @@ li{
           align-items: center;
           white-space: nowrap;
           width: 100%;
-          padding: 0.4rem 1rem;
+          padding: 0.2rem 1rem;
           a{
             color: #787878;
             font-family: 'Roboto', sans-serif;
@@ -232,7 +235,7 @@ li{
         display: flex;
         gap: 0.3rem;
         background-color: #000;
-        padding: 0.5rem;
+        padding: 0.8rem;
         border-radius: 10px;
         img{
           width: 1rem;
@@ -257,7 +260,7 @@ li{
           color: #FFFFFF;
           font-size: 0.8rem;
           position: absolute;
-          left: 1.1rem;
+          left: 1.4rem;
   
         }
         input{
@@ -271,7 +274,7 @@ li{
           align-items: center;
           padding: auto 0.5rem;
           border-radius: 10px;
-          padding: 1.2rem;
+          padding: 1.4rem;
           padding-top: 2.3rem;
           font-size: 0.9rem;
         }
@@ -288,19 +291,6 @@ li{
       display: flex;
       gap: 2.5rem;
       margin-top: 1rem;
-
-      & > div{
-        border: 2px solid $hover-bg;
-        border-radius: 25px;
-        padding: 1rem 4.5rem;
-        line-height: 1rem;
-        margin-bottom: 1rem;
-      }
-
-      & > div:hover{
-        background: $main-bg;
-      }
-    
     }
     .btn{
       width: 100%;
@@ -342,6 +332,10 @@ li{
       background-color: #e5e5e5;
      }
    }
+  }
+
+  .container-terms{
+margin: 0 3rem;
   }
 
   .container{
@@ -679,7 +673,8 @@ li{
            flex-direction: column;
            gap: 0.5rem;
            justify-content: center;
-                   }
+
+          }
         }
       }
     }
