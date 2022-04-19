@@ -36,22 +36,28 @@
           <img src="./asset/icons/google icon.svg" alt=""><a href="#">Continue With Google</a>
         </div>
       </div>
-      <div class="account-form">
+      
+        <form class="account-form">
         <div class="input-wrapper">
           <label>Username/Email</label>
-            <input type="text" placeholder="Username/Email ">
+            <input type="text" placeholder="Username/Email " required>
             <img src="./asset/icons/man icon.svg" alt="">
         </div>
         <div class="input-wrapper">
           <label>Password</label>
-            <input type="password" value="FakePSW">
+            <input type="password" placeholder="password" required>
             <img src="./asset/icons/man icon.svg" alt="">
         </div>
-      </div>
-      <div class="button">
+        <div class="button">
+        <input class="btn-round" type="submit" value="Login">
+        <input class="btn-round" type="submit" value="Explore">
+       </div>
+      </form>
+      
+      <!-- <div class="button">
         <div><a href="#"><button class="btn-round">Login</button></a></div>
         <div><a href="#"><button class="btn-round">Explore</button></a></div>
-      </div>
+      </div> -->
       <div>
         <p>By clicking on login you agree to our <a href="#">Terms and Conditions</a></p>
       </div>
