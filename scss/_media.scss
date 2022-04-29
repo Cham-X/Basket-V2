@@ -1,0 +1,136 @@
+@media   (max-width:768px) {
+  .holder{
+    .upper-navbar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+  
+  
+      a{
+        font-size: 0.8rem;
+      }
+      p{
+        font-size: 0.8rem;
+      }
+      img{
+        width: 40px;
+      }
+      .nav-links{
+        display: flex;
+        gap: 0.5rem;
+        text-align: align;
+  
+        h2{
+          font-size: 1.5rem;
+        }
+        li{
+          padding: 0.5rem;
+        }
+        a{
+          padding: 0.5rem;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+
+  .showcase{
+   .galley{
+     img{
+       max-width: 5rem;
+     }
+   }
+  }
+}
+
+@media  (max-width:450px){
+  .holder{
+    .upper-navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+    .nav-links{
+      display: flex;
+      
+      
+      li{
+        padding: 0.1rem;
+      }
+    }
+    .social-links{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .button{
+      display: flex;
+      
+      gap: 0.5rem;
+    }
+  }
+  .btn-index{
+    background: $main-bg;
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    padding: 1.2rem;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    white-space: nowrap;
+    a{
+      color: #fff;
+      font-size: 1rem;
+      line-height: 16px;
+      font-family: 'Roboto', sans-serif;
+      margin: 0 10px;
+      font-weight: 400;
+      // padding: 1rem;
+    }
+  }
+  .btn-continue{
+    background: $main-bg;
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    padding: 1.2rem 7rem;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    white-space: nowrap;
+    a{
+      color: #fff;
+      font-size: 1rem;
+      line-height: 16px;
+      font-family: 'Roboto', sans-serif;
+      margin: 0 10px;
+      font-weight: 400;
+      // padding: 1rem;
+    }
+  }
+  .btn-round{
+    border: 2px solid $hover-bg;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(0, 10, 16, 0.4);;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .overview{
+    .side-bar{
+     .navb-bar{
+       display: none;
+     }
+    }
+  }
+  .upload-form{
+    display: flex;
+    flex-direction: column;
+  }
+}

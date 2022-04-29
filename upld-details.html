@@ -20,8 +20,8 @@
         <ul>
           <li><img src="./asset/icons/nav-bar icon.svg" alt=""><a href="./dashboard.html"> Dashboard</a></li>
           <li><img src="./asset/icons/compass.svg" alt=""><a href="./explore.html">Explore</a></li>
-          <li class="current"><img src="./asset/icons/Vector.svg" alt=""><a href="./loops.html"> Loops</a></li>
-          <li><img src="./asset/icons/upload.svg" alt=""><a href="./upload.html">Upload</a></li>
+          <li><img src="./asset/icons/Vector.svg" alt=""><a href="./loops.html"> Loops</a></li>
+          <li class="current"><img src="./asset/icons/upload.svg" alt=""><a href="./upload.html">Upload</a></li>
           <li><img src="./asset/icons/file-text.svg" alt=""><a href="./terms.html">Terms & Agreement</a></li>
           <li><img src="./asset/icons/help-circle.svg" alt=""><a href="./help.html">Help</a></li>
           <div class="line-break"></div>
@@ -43,51 +43,52 @@
          <button class="btn-main"><a href="#">Search</a></button>
         </div>
       </div>
-      <div class="container" id="upload">
+      <form  class="container" id="upload">
         <h2 class="section-title">Upload</h2>
-        <div class="upload-form">
-          <div class="left-form">
-            <div>
-              <label for="best art">Best Art</label>
+          <div class="upload-form">
+            <div class="left-form">
               <div>
-                <input type="text" placeholder="Choose file to upload">
-                <button class="btn-main"><a href="./upld-details.html">Upload</a></button>
+                <label for="best art">Best Art</label>
+                <div>
+                  <input type="file" placeholder="Choose file to upload">
+                  <button class="btn-main"><a href="./upld-details.html">Upload</a></button>
+                </div>
+              </div>
+              <div>
+                <label for="About">About</label>
+                <textarea name="about" placeholder="Enter About details" id="" cols="30" rows="14"></textarea>
+              </div>
+              <div>
+              <p> Loop</p> <img src="./asset/icons/loop icon.svg" alt="">
               </div>
             </div>
-            <div>
-              <label for="About">About</label>
-              <textarea name="about" placeholder="Enter About details" id="" cols="30" rows="14"></textarea>
-            </div>
-            <div>
-             <p> Loop</p> <img src="./asset/icons/loop icon.svg" alt="">
-            </div>
-          </div>
-          <div class="right-form">
-            <div>
-              <label for="Title">Title</label>
-              <input type="text" placeholder="Enter Beat Title">
-            </div>
-            <div>
-              <label for="Title">Producer</label>
-              <input type="text" placeholder="Producer(s)">
-            </div>
-            <div>
-              <label for="Title">Tempo</label>
-              <input type="text" placeholder="Tempo">
-            </div>
-            <div>
-              <label for="Title">Genre</label>
-              <input type="text" placeholder="Genre">
-            </div>
-            <div>
-              <label for="Title">Mood</label>
-              <input type="text" placeholder="Mood">
+            <div class="right-form">
+              <div>
+                <label for="Title">Title</label>
+                <input type="text" placeholder="Enter Beat Title">
+              </div>
+              <div>
+                <label for="Title">Producer</label>
+                <input type="text" placeholder="Producer(s)">
+              </div>
+              <div>
+                <label for="Title">Tempo</label>
+                <input type="text" placeholder="Tempo">
+              </div>
+              <div>
+                <label for="Title">Genre</label>
+                <input type="text" placeholder="Genre">
+              </div>
+              <div>
+                <label for="Title">Mood</label>
+                <input type="text" placeholder="Mood">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="btn grey-btn">
-          <button class="btn-grey"><a href="./upld-confirm.html">Upload</a></button>
-        </div>
+          <div class="btn grey-btn">
+            <button class="btn-grey"><a href="./upld-confirm.html">Upload</a></button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
