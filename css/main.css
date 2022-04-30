@@ -497,14 +497,12 @@ li {
       padding-left: 30px;
       background-color: #e5e5e5; }
 
-.container-terms {
-  margin: 0 4rem; }
-
 .container {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 1rem; }
+  gap: 1rem;
+  width: 80%; }
   .container .dashboard-content {
     display: flex;
     flex-direction: column;
@@ -767,7 +765,7 @@ li {
         flex-direction: column; }
         #upload .upload-form .left-form > div:nth-child(1) > div, #upload .upload-form .left-form > div:nth-child(2) > div {
           display: flex; }
-      #upload .upload-form .left-form > div:nth-child(3) {
+      #upload .upload-form .left-form .loop-option {
         display: flex;
         gap: 0.5rem;
         align-items: center; }
